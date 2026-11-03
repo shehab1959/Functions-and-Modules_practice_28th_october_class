@@ -39,3 +39,36 @@ print(f"Hello {name}")
 print(f"How are you {name}")
 #Hello Shovon
 #How are you Shovo
+
+
+
+
+
+##Now same thing using Function
+def greet(name):
+    print(f"Hello {name}")
+    print(f"How are you {name}?")
+
+greet("Shehab") 
+#Hello Shehab
+#How are you Shehab?
+greet("Abdullah")
+#Hello Abdullah
+#How are you Abdullah?
+
+
+
+##Using Function with list
+def greet(name):
+    print(f"Hello {name}")
+    print(f"How are you {name}?")
+    
+employee_list = ["Abir","Hasan","PK"]
+for name in employee_list:
+    greet(name)
+#Hello Abir
+#How are you Abir?
+#Hello Hasan
+#How are you Hasan?
+#Hello PK
+#How are you PK?
