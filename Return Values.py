@@ -26,3 +26,25 @@ output1 = xyz(5,7)
 print(output1) #12
 output2 = xyz(output1,12)
 print(output2) #24
+
+
+
+##
+def calculate_grade_print(marks):
+    grade = "A" if marks >= 80 else "B" # logic
+    print("Grade:", grade)
+    return grade
+
+
+# Output is shown, but cannot be reused
+result = calculate_grade_print(85)
+print("Stored result:", result)
+
+if result == "A":
+    print("Eligible for scholarship")
+else:
+    print("Keep improving!")
+
+#Grade: A
+#Stored result: A
+#Eligible for scholarship
