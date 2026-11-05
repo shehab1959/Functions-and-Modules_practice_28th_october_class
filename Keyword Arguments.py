@@ -12,3 +12,6 @@ def send_email(user_email, subject="Welcome!", body="Thanks for joining."):
     print(f"Subject: {subject}")
     print(f"Content: {body}")
 send_email("support@ostad.com")
+#To: support@ostad.com
+#Subject: Welcome!
+#Content: Thanks for joining.
